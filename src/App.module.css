@@ -1,0 +1,10 @@
+.wrapper {
+max-width: 70rem; /* ocupar a largura da tela */
+margin: 2rem auto; /* centralizar na tela */
+padding: 0 1rem; /* se diminuir a tela para um tamanho menor, dê um espaçamento entre as laterais de 16 px */
+
+display: grid;
+grid-template-columns: 256px 1fr;
+gap: 2rem; /* espaçamento das colunas */
+align-items: flex-start; /* aside e main sempre alinhados para o topo */
+}
