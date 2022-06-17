@@ -11,8 +11,10 @@ export function App() {
       <div className={styles.wrapper}>
           <SideBar />
           <main>
-            <Post />
-            
+            <Post
+            />
+             <Post
+             /> 
           </main>
       </div>
     </div>
