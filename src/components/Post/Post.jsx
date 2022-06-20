@@ -36,6 +36,18 @@ export default function Post() {
           <a href="#">eh noiss</a> {' '}
         </p>
       </div>
+
+      <form className={styles.commentForm}>
+        <strong> Deixe seu feedback </strong>
+
+        <textarea
+          placeholder="deixe um comentario"       
+        />
+
+        <footer>
+          <button type="submit"> Publicar </button>
+        </footer>
+      </form>
     </article>
   );
 }
