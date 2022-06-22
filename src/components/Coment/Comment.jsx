@@ -12,7 +12,7 @@ export default function Comment() {
         <strong> Walisson</strong>
         <time title="11 de maio de 2021" dataTime={Date.now()}>
             {" "}
-            Cerca de 1 hora atrás
+            Cerca de 1 hora atrássssss
           </time>
       </div>
       <button title="Deletar comt">
