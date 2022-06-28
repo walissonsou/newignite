@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './SideBar.module.css';
 import { Phone } from "phosphor-react"
+import Avatar from '../Avatar';
 export default function SideBar() {
   return (
     <aside className={styles.sidebar}>
@@ -10,7 +11,7 @@ export default function SideBar() {
 
       />
       <div className={styles.profile}> 
-        <img  src="https://avatars.githubusercontent.com/u/88872797?v=4" alt="" className={styles.avatar}></img>
+        <Avatar src="https://avatars.githubusercontent.com/u/88872797?v=40" alt="oioi" />
         <strong> Walisson Souza </strong>
         <span> Web Developer</span>
       </div>
