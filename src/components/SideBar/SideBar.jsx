@@ -10,8 +10,9 @@ export default function SideBar() {
       alt="wallpapper"
 
       />
-      <div className={styles.profile}> 
-        <Avatar src="https://avatars.githubusercontent.com/u/88872797?v=40" alt="oioi" />
+      <div className={styles.profile}>
+
+        <Avatar hasBorder={false} src="https://github.com/maykbrito.png" alt="oioi" className={styles.avatar} />
         <strong> Walisson Souza </strong>
         <span> Web Developer</span>
       </div>
