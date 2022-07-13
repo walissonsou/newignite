@@ -2,12 +2,12 @@ import { ThumbsUp, Trash } from 'phosphor-react';
 import Avatar from '../Avatar';
 import styles from './Comment.module.css';
 
-export default function Comment() {
+export default function Comment({author, publishedAt}) {
   return (
     <div className={styles.comment}>
    <Avatar
  
-   src="https://github.com/maykbrito.png"
+   src="https://github.com/CaioLucasNS.png"
    alt="avatar" />
     <div className={styles.commentBox}>
       <div className={styles.commentContent}>
@@ -16,7 +16,7 @@ export default function Comment() {
         <strong> Walisson</strong>
         <time title="11 de maio de 2021" dataTime={Date.now()}>
             {" "}
-            Cerca de 1 hora atrássssss
+            {publishedAt}
           </time>
       </div>
       <button title="Deletar comt">

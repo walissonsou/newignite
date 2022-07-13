@@ -18,6 +18,8 @@ const posts = [
       role: "Dev Front GCT ",
  },
  content: [
+  {type: 'link', content: "oi oi papai"},
+  {type: 'link', content: "oi oi papai"},
   {type: 'paragraph', content: "oi oi papai"}
  ],
  publishedAt: new Date('2022-06-18 22:00:00')
@@ -25,14 +27,16 @@ const posts = [
   {
     id: 2,
     author:{
-      avatar_url: 'https://github.com/walissonsou.png',
-      name: 'Walisson Souza' ,
-      role: "Dev Front GCT ",
+      avatar_url: 'https://github.com/lithg.png',
+      name: 'Guilherme' ,
+      role: "Dev Front Tempest ",
  },
  content: [
-  {type: 'paragraph', content: "oi oi papai"}
+  {type: 'paragraph', content: "oi oi papai"},
+  {type: 'paragraph', content: "oi oi papai"},
+  {type: 'link', content: "oi oi papai"}
  ],
- publishedAt: new Date('2022-06-18 22:00:00')
+ publishedAt: new Date('2022-06-18 21:00:00')
   },
  
 ];
